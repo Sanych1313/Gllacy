@@ -136,8 +136,6 @@ body {
   position: absolute;
   top: 9px;
   left: 20px;
-
-  outline: none;
 }
 
 .logo__icon {
@@ -578,8 +576,6 @@ body {
   letter-spacing: 0.4px;
   color: #ffffff;
   text-decoration: none;
-
-  outline: none;
 }
 
 /*Стили для первого слайдера*/
