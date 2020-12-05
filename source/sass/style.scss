@@ -1,0 +1,37 @@
+@import "variables.scss";
+@import "blocks/page-header.scss";
+@import "blocks/nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/advantages.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-intro.scss";
+@import "blocks/gallery.scss";
+@import "blocks/search.scss";
+@import "blocks/presentation.scss";
+@import "blocks/reviews.scss";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 320px;
+
+  font-family: $font-family;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src:
+    url(../fonts/ptsans.woff) format(woff),
+    url(../fonts/ptsans.woff2) format(woff2);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT Sans-bold";
+  src:
+    url(../fonts/ptsansbold.woff) format(woff),
+    url(../fonts/ptsansbold.woff2) format(woff2);
+  font-style: normal;
+  font-weight: normal;
+}
