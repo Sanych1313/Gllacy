@@ -326,6 +326,27 @@
         color: #000000;
         background-color: #ffffff; }
 
+.header__copyright {
+  position: absolute;
+  right: 24px;
+  bottom: -39px;
+  text-align: right; }
+  .header__copyright .copyright__operating-mode {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 14px; }
+  .header__copyright .copyright__phone {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #ffffff; }
+    .header__copyright .copyright__phone a {
+      color: #ffffff;
+      text-decoration: none; }
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -411,7 +432,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
-  color: #000000; }
+  color: #ffffff; }
 
 .fone-one {
   background-color: #849d8f; }

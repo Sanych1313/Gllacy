@@ -404,3 +404,34 @@
     }
   }
 }
+
+.header__copyright {
+  position: absolute;
+
+  right: 24px;
+  bottom: -39px;
+
+  text-align: right;
+
+  .copyright__operating-mode {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px;
+  
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .copyright__phone {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
