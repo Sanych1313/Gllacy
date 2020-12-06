@@ -1,37 +1,129 @@
 @import "variables.scss";
-@import "blocks/page-header.scss";
-@import "blocks/nav.scss";
-@import "blocks/intro.scss";
-@import "blocks/advantages.scss";
-@import "blocks/page-footer.scss";
-@import "blocks/page-intro.scss";
-@import "blocks/gallery.scss";
-@import "blocks/search.scss";
-@import "blocks/presentation.scss";
-@import "blocks/reviews.scss";
+@import "mixin.scss";
+@import "blocks/header.scss";
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src:
+    url(../fonts/Roboto-Black.ttf) format(ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src:
+    url(../fonts/Roboto-BlackItalic.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src:
+    url(../fonts/Roboto-Bold.ttf) format(ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src:
+    url(../fonts/Roboto-BoldItalic.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src:
+    url(../fonts/Roboto-Italic.ttf) format(ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src:
+    url(../fonts/Roboto-Light.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src:
+    url(../fonts/Roboto-LightItalic.ttf) format(ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src:
+    url(../fonts/Roboto-Medium.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src:
+    url(../fonts/Roboto-MediumItalic.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src:
+    url(../fonts/Roboto-Regular.ttf) format(ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src:
+    url(../fonts/Roboto-Thin.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src:
+    url(../fonts/Roboto-ThinItalic.ttf) format(ttf),;
+  font-style: normal;
+  font-weight: normal;
+}
+
+html,
 body {
-  margin: 0px;
-  padding: 0px;
-  min-width: 320px;
+  position: relative;
 
-  font-family: $font-family;
+  margin: auto;
+  width: 1200px;
+
+  font-family: $roboto-regular;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000000;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  src:
-    url(../fonts/ptsans.woff) format(woff),
-    url(../fonts/ptsans.woff2) format(woff2);
-  font-style: normal;
-  font-weight: normal;
+.fone-one {
+  background-color: #849d8f;
 }
 
-@font-face {
-  font-family: "PT Sans-bold";
-  src:
-    url(../fonts/ptsansbold.woff) format(woff),
-    url(../fonts/ptsansbold.woff2) format(woff2);
-  font-style: normal;
-  font-weight: normal;
+.fone-two {
+  background-color: #8996a6;
+}
+
+.fone-three {
+  background-color: #9d8b84;
 }
