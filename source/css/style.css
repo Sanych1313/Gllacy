@@ -36,7 +36,8 @@
   .header .logo {
     position: absolute;
     top: 9px;
-    left: 17px; }
+    left: 17px;
+    outline: none; }
     .header .logo .logo__icon {
       width: 175px;
       height: 64px; }
@@ -131,7 +132,8 @@
       .top-menu .top-menu__left li:hover .left__catalog .left__catalog-link,
       .top-menu .top-menu__left li:focus .left__catalog .left__catalog-link {
         padding: 8px 21px;
-        text-decoration: none; }
+        text-decoration: none;
+        outline: none; }
       .top-menu .top-menu__left li:hover .left__catalog .left__catalog-link:hover,
       .top-menu .top-menu__left li:hover .left__catalog .left__catalog-link:focus,
       .top-menu .top-menu__left li:hover .left__catalog .left__catalog-item--active,
@@ -249,11 +251,19 @@
         .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child {
           display: -webkit-box;
           display: -ms-flexbox;
-          display: flex; }
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
           .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__button,
           .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__button {
-            padding: 5px 25px;
+            padding: 14px 22px;
             border-radius: 25px; }
+            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__button span,
+            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__button span {
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 24px; }
           .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links,
           .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links {
             padding: 5px 5px 5px 20px;
@@ -266,7 +276,8 @@
                     flex-direction: column; }
             .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a,
             .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a {
-              text-decoration: none; }
+              text-decoration: none;
+              outline: none; }
               .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a span,
               .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a span {
                 border-bottom: 1px solid #b2b2b2;
@@ -345,7 +356,8 @@
     color: #ffffff; }
     .header__copyright .copyright__phone a {
       color: #ffffff;
-      text-decoration: none; }
+      text-decoration: none;
+      outline: none; }
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;

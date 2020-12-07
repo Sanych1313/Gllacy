@@ -6,6 +6,8 @@
     top: 9px;
     left: 17px;
 
+    outline: none;
+
     .logo__icon {
       width: 175px;
       height: 64px;
@@ -144,6 +146,8 @@
           padding: 8px 21px;
 
           text-decoration: none;
+
+          outline: none;
         }
 
         .left__catalog-link:hover,
@@ -288,10 +292,17 @@
 
           .form-account__item:last-child {
             display: flex;
+            align-items: center;
 
             .form-account__button {
-              padding: 5px 25px;
+              padding: 14px 22px;
               border-radius: 25px;
+
+              span {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 24px;
+              }
             }
 
             .form-account__links {
@@ -301,6 +312,8 @@
 
               a {
                 text-decoration: none;
+
+                outline: none;
 
                 span {
                   border-bottom: 1px solid #b2b2b2;
@@ -432,6 +445,8 @@
     a {
       color: #ffffff;
       text-decoration: none;
+
+      outline: none;
     }
   }
 }
