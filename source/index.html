@@ -172,7 +172,7 @@
 
     <div class="banner__container banner-chocolate">
       <h2 class="banner__title">Шоколадки даром!</h2>
-      <p class="banner__description">При покупке 2 кг пломбира, добавим в ваш заказ упаковку шоколадной присыпки совершенно бесплатно.</p>
+      <p class="banner__description">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
       <img class="banner-chocolate__background" src="img/chocolate-banner.png" alt="Шоколадки даром!" width="560px" height="229px">
       <a class="banner__button button">
         <span>Хочу шоколадки!</span>
@@ -214,35 +214,40 @@
     </section>
   </div>
 
-  <div class="advantages">
-    <h2 class="advantages__title">Магазин Глэйси &ndash; это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+  <div class="seo">
+    <h2 class="seo__title">Магазин Глэйси &ndash; это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
     
-    <div class="advantages__left">
-      <p class="advantages__description">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-      <p class="advantages__description">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+    <div class="seo__left">
+      <p class="seo__description">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+      <p class="seo__description">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
     </div>
 
-    <div class="advantages__right">
-      <p class="advantages__description">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
-      <p class="advantages__description">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+    <div class="seo__right">
+      <p class="seo__description">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+      <p class="seo__description">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
     </div>
   </div>
 
-  <div class="news">
-    <img src="img/strawberry-news.png" alt="Клубничный фон" width="560px" height="220px" class="news__pic">
-    <h2 class="news__title">Новое в нашем блоге</h2>
-    <a href="#" class="news__description">10 способов сервировки фруктовых щербетов к столу</a>
-  </div>
+  <div class="info">
+    <div class="info__news news">
+      <img class="news__pic" src="img/strawberry-news.png" alt="Клубничный фон" width="560px" height="220px">
+      <h3 class="news__title">Новое в нашем блоге</h3>
+      <a class="news__description" href="#">10 способов сервировки фруктовых щербетов к столу</a>
+    </div>
 
-  <form action="https://echo.htmlacademy.ru" method="post" class="mailing">
-    <img src="img/mailing-background.png" alt="Фон рассылки" width="560px" height="220px" class="mailing__pic">
-    <p class="mailing__description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно=)</p>
   
-    <label for="mailing" class="mailing__label"></label>
-    <input type="text" name="mail" id="mailing" placeholder="email@example.com">
+    <div class="info__mailing mailing">
+      <img class="mailing__pic" src="img/mailing-background.png" alt="Фон рассылки" width="560px" height="220px">
+      <p class="mailing__description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно=)</p>
 
-    <a href="#" class="mailing__button"><span>Отправить</span></a>
-  </form>
+      <form class="mailing__form mailing-form" action="https://echo.htmlacademy.ru" method="post">
+        <label class="mailing-form__label" for="mailing"></label>
+        <input type="text" name="mail" id="mailing" placeholder="email@example.com">
+
+        <button class="mailing-form__button button" type="button"><span>Отправить</span></button>
+      </form>
+    </div>
+  </div>
 
   <div class="map">
     <img src="img/map.png" alt="ул. Большая Конюшенная 19/8, Санкт-Петербург" width="1200px" height="430px" class="map__pic">
