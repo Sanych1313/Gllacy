@@ -1,0 +1,117 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  padding: 313px 265px 0px 265px;
+
+  .slider__one,
+  .slider__two,
+  .slider__three {
+    position: relative;
+  }
+
+  .slider__two,
+  .slider__three {
+    display: none;
+  }
+
+  .slider-one__pic1,
+  .slider-one__pic2,
+  .slider-two__pic1,
+  .slider-two__pic2,
+  .slider-three__pic1,
+  .slider-three__pic2 {
+    position: absolute;
+  }
+
+  .slider-one__pic1,
+  .slider-two__pic1,
+  .slider-three__pic1 {
+    z-index: -1;
+
+    top: -310px;
+    left: 12px;
+  }
+
+  .slider-one__pic2,
+  .slider-two__pic2,
+  .slider-three__pic2 {
+    z-index: -2;
+
+    top: -267px;
+    right: 11px;
+  }
+
+  .slider-one__description,
+  .slider-two__description,
+  .slider-three__description {
+    margin: 0px;
+    margin-bottom: 39px;
+
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    text-align: center;
+
+    span {
+      letter-spacing: -0.7px;
+    }
+  }
+
+    .slider-three__description {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  .slider__controller {
+    position: relative;
+    text-align: center;
+
+    .controller__pagination {
+      position: absolute;
+      top: 11px;
+      left: -238px;
+
+      display: flex;
+
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+
+    .controller__pagination-item {
+      margin-right: 8px;
+      width: 21px;
+      height: 21px;
+
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+
+      cursor: pointer;
+    }
+
+    .controller__pagination-item--active {
+      background-color: #ffffff;
+    }
+
+    .controller__pagination-item:not(.controller__pagination-item--active):hover,
+    .controller__pagination-item:not(.controller__pagination-item--active):focus {
+      background-color: #b2c1b7;
+    }
+
+    .controller__pagination-item:not(.controller__pagination-item--active):active {
+      background-color: #ffffff;
+    }
+
+    .controller__button {
+      padding: 13px 40px;
+
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      letter-spacing: -0.9px;
+
+      border-radius: 32px;
+    }
+  }
+}
