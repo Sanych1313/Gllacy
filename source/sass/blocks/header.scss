@@ -326,8 +326,10 @@
               a:hover,
               a:focus,
               a:active {
+                background-color: transparent;
+                
                 span {
-                  border-bottom-color: #f9cdc4;
+                  border-bottom-color:rgba(232, 77, 55, 0.3);
 
                   color: #e84d37;
                 }

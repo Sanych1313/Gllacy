@@ -2,6 +2,7 @@
   position: relative;
 
   display: flex;
+  padding: 15px 0px 24px 45px;
 
   .banner-rapsberry__background,
   .banner-chocolate__background {
@@ -25,7 +26,6 @@
   }
 
   .banner-rapsberry {
-    padding: 15px 0px 0px 45px;
     
     .banner__title,
     .banner__description {
@@ -38,7 +38,7 @@
   }
 
   .banner-chocolate {
-    padding: 15px 2px 0px 54px;
+    padding-left: 54px;
 
     .banner__button {
       margin-right: 47px;

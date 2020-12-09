@@ -293,14 +293,21 @@
                 border-bottom: 1px solid #b2b2b2;
                 font-size: 13px;
                 color: #000000; }
-            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover span,
-            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus span,
-            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:active span,
-            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover span,
-            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus span,
-            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:active span {
-              border-bottom-color: #f9cdc4;
-              color: #e84d37; }
+            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover,
+            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus,
+            .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:active,
+            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover,
+            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus,
+            .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:active {
+              background-color: transparent; }
+              .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover span,
+              .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus span,
+              .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:active span,
+              .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover span,
+              .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus span,
+              .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a:active span {
+                border-bottom-color: rgba(232, 77, 55, 0.3);
+                color: #e84d37; }
     .top-menu .top-menu__right .right__item:first-child {
       position: relative; }
       .top-menu .top-menu__right .right__item:first-child .right__link {
@@ -460,7 +467,8 @@
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 15px 0px 24px 45px; }
   .banner .banner-rapsberry__background,
   .banner .banner-chocolate__background {
     position: absolute;
@@ -479,15 +487,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-  .banner .banner-rapsberry {
-    padding: 15px 0px 0px 45px; }
-    .banner .banner-rapsberry .banner__title,
-    .banner .banner-rapsberry .banner__description {
-      padding-right: 10px; }
-    .banner .banner-rapsberry .banner__button {
-      margin-right: 12px; }
+  .banner .banner-rapsberry .banner__title,
+  .banner .banner-rapsberry .banner__description {
+    padding-right: 10px; }
+  .banner .banner-rapsberry .banner__button {
+    margin-right: 12px; }
   .banner .banner-chocolate {
-    padding: 15px 2px 0px 54px; }
+    padding-left: 54px; }
     .banner .banner-chocolate .banner__button {
       margin-right: 47px; }
   .banner .banner__title {
@@ -576,6 +582,65 @@
     }
   }
 }*/
+.hits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 40px;
+  padding-left: 27px; }
+  .hits .hits__item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 267px;
+    margin-right: 26px; }
+    .hits .hits__item .icon-hits {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 61px;
+      height: 61px; }
+    .hits .hits__item .hits__title {
+      margin: 0px;
+      text-align: center; }
+      .hits .hits__item .hits__title .hits__link {
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: normal;
+        color: inherit;
+        text-decoration: none;
+        letter-spacing: 0.3px; }
+        .hits .hits__item .hits__title .hits__link span {
+          border-bottom: 1px solid #adbdb4; }
+      .hits .hits__item .hits__title .hits__link:hover span,
+      .hits .hits__item .hits__title .hits__link:focus span,
+      .hits .hits__item .hits__title .hits__link:active span {
+        border-bottom-color: rgba(232, 77, 55, 0.3);
+        color: #e84d37; }
+    .hits .hits__item .hits__pic {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1;
+      margin-bottom: 12px; }
+  .hits .hits__price {
+    position: absolute;
+    top: 225px;
+    left: 0px;
+    margin: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 13px; }
+    .hits .hits__price span {
+      font-size: 30px; }
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
