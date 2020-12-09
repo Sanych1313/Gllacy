@@ -205,12 +205,12 @@
           color: #323232;
           outline: none; }
         .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:hover,
-        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:hover {
+        .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:focus,
+        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:hover,
+        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:focus {
           padding: 10px 15px;
           border: 2px solid #c7c6c5; }
-        .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:focus,
         .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:active,
-        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:focus,
         .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:active {
           padding: 10px 15px;
           border: 2px solid #8fbdec; }
@@ -242,19 +242,19 @@
           line-height: 24px;
           outline: none; }
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:hover,
+        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:focus,
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:hover,
+        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:focus,
         .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:hover,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:hover {
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:focus,
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:hover,
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:focus {
           padding: 8px 12px;
           border: 2px solid #c7c6c5; }
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:active,
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:active,
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:focus,
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:focus,
         .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:active,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:active,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:focus,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:focus {
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:active {
           padding: 8px 12px;
           border: 2px solid #8fbdec; }
         .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child,
@@ -617,6 +617,92 @@
       height: 49px; }
   .seo .seo__description:first-child {
     margin-bottom: 22px; }
+
+.info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 63px 27px 38px 46px; }
+  .info .news__pic,
+  .info .mailing__pic-1,
+  .info .mailing__pic-2 {
+    position: absolute;
+    z-index: -1; }
+  .info .news__pic {
+    top: 40px;
+    left: 27px; }
+  .info .mailing__pic-1 {
+    top: 40px;
+    right: 27px; }
+  .info .mailing__pic-2 {
+    top: 44px;
+    right: 32px; }
+  .info .info__news,
+  .info .info__mailing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .info .info__news {
+    margin-right: 294px;
+    width: 300px; }
+    .info .info__news .news__title {
+      margin: 0px;
+      margin-bottom: 5px;
+      font-family: "Roboto-Medium", "Arial", sans-serif;
+      font-size: inherit;
+      line-height: inherit;
+      font-weight: normal;
+      color: #323232;
+      letter-spacing: 0.2px; }
+    .info .info__news .news__description {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: bold;
+      color: #323232;
+      letter-spacing: -0.7px;
+      outline: none; }
+    .info .info__news .news__description:hover,
+    .info .info__news .news__description:focus,
+    .info .info__news .news__description:active {
+      border-bottom-color: rgba(232, 77, 55, 0.3);
+      color: #e84d37; }
+  .info .info__mailing {
+    padding-top: 11px;
+    width: 520px; }
+    .info .info__mailing .mailing__description {
+      margin: 0px;
+      margin-bottom: 36px;
+      color: #5a5a5a;
+      letter-spacing: 0.2px; }
+    .info .info__mailing input[type="text"] {
+      margin-right: 7px;
+      padding: 9px 12px;
+      border: 1px solid #d3d3d2;
+      border-radius: 5px;
+      width: 368px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #323232;
+      outline: none; }
+    .info .info__mailing input[type="text"]:hover,
+    .info .info__mailing input[type="text"]:focus {
+      padding: 8px 11px;
+      border: 2px solid #c7c6c5; }
+    .info .info__mailing input[type="text"]:active {
+      padding: 8px 11px;
+      border: 2px solid #8fbdec; }
+    .info .info__mailing .mailing-form__button {
+      padding: 10px 18px;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      letter-spacing: -0.5px;
+      border-radius: 25px; }
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
