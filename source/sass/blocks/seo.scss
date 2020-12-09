@@ -1,0 +1,62 @@
+.seo {
+  position: relative;
+
+  padding: 62px 27px 24px 47px;
+
+  .seo__title {
+    margin: 0px;
+    margin-bottom: 21px;
+
+    font-family: $roboto-medium;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #323232;
+    letter-spacing: 0.5px;
+  }
+
+  .seo__pic {
+    position: absolute;
+    top: 37px;
+    left: 27px;
+    z-index: -1;
+  }
+
+  .seo__container {
+    display: flex;
+  }
+
+  .seo__left {
+    padding-left: 56px;
+    width: 531px;
+  }
+
+  .seo__right {
+    padding-left: 92px;
+    width: 567px;
+  }
+
+  .seo__description {
+    position: relative;
+    margin: 0px;
+
+    color: #323232;
+    letter-spacing: 0.2px;
+
+    .icon-ice-cream,
+    .icon-eco,
+    .icon-cow,
+    .icon-thermo {
+      position: absolute;
+      top: -13px;
+      left: -57px;
+      
+      width: 49px;
+      height: 49px;
+    }
+  }
+
+  .seo__description:first-child {
+    margin-bottom: 22px;
+  }
+}

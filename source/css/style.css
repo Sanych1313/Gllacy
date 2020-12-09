@@ -98,7 +98,7 @@
       .top-menu .top-menu__left .left__item .left__link:not(.left__link--active):focus {
         padding: 8px 14px;
         border-radius: 17px;
-        color: #000000;
+        color: #323232;
         background-color: #F7F6F3; }
         .top-menu .top-menu__left .left__item .left__link:not(.left__link--active):hover .left__description,
         .top-menu .top-menu__left .left__item .left__link:not(.left__link--active):focus .left__description {
@@ -124,7 +124,7 @@
         display: block;
         font-size: 14px;
         line-height: 16px;
-        color: #000000; }
+        color: #323232; }
       .top-menu .top-menu__left li:hover .left__catalog .left__catalog-title,
       .top-menu .top-menu__left li:focus .left__catalog .left__catalog-title {
         position: relative;
@@ -202,7 +202,7 @@
           width: 307px;
           font-size: 14px;
           line-height: 24px;
-          color: #000000;
+          color: #323232;
           outline: none; }
         .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:hover,
         .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:hover {
@@ -292,7 +292,7 @@
               .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child .form-account__links a span {
                 border-bottom: 1px solid #b2b2b2;
                 font-size: 13px;
-                color: #000000; }
+                color: #323232; }
             .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:hover,
             .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:focus,
             .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child .form-account__links a:active,
@@ -341,7 +341,7 @@
         height: 20px; }
     .top-menu .top-menu__right .right__item:not(:last-child) a:hover,
     .top-menu .top-menu__right .right__item:not(:last-child) a:focus {
-      color: #000000;
+      color: #323232;
       background-color: #ffffff; }
       .top-menu .top-menu__right .right__item:not(:last-child) a:hover .icon-search,
       .top-menu .top-menu__right .right__item:not(:last-child) a:hover .icon-enter,
@@ -351,7 +351,7 @@
     .top-menu .top-menu__right .right__item {
       margin-right: 11px; }
       .top-menu .top-menu__right .right__item .right__link--active {
-        color: #000000;
+        color: #323232;
         background-color: #ffffff; }
 
 .header__copyright {
@@ -640,6 +640,50 @@
     line-height: 13px; }
     .hits .hits__price span {
       font-size: 30px; }
+
+.seo {
+  position: relative;
+  padding: 62px 27px 24px 47px; }
+  .seo .seo__title {
+    margin: 0px;
+    margin-bottom: 21px;
+    font-family: "Roboto-Medium", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #323232;
+    letter-spacing: 0.5px; }
+  .seo .seo__pic {
+    position: absolute;
+    top: 37px;
+    left: 27px;
+    z-index: -1; }
+  .seo .seo__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .seo .seo__left {
+    padding-left: 56px;
+    width: 531px; }
+  .seo .seo__right {
+    padding-left: 92px;
+    width: 567px; }
+  .seo .seo__description {
+    position: relative;
+    margin: 0px;
+    color: #323232;
+    letter-spacing: 0.2px; }
+    .seo .seo__description .icon-ice-cream,
+    .seo .seo__description .icon-eco,
+    .seo .seo__description .icon-cow,
+    .seo .seo__description .icon-thermo {
+      position: absolute;
+      top: -13px;
+      left: -57px;
+      width: 49px;
+      height: 49px; }
+  .seo .seo__description:first-child {
+    margin-bottom: 22px; }
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
