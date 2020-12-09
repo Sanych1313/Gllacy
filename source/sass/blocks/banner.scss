@@ -2,7 +2,7 @@
   position: relative;
 
   display: flex;
-  padding: 15px 0px 24px 45px;
+  padding: 15px 27px 24px 45px;
 
   .banner-rapsberry__background,
   .banner-chocolate__background {
@@ -23,26 +23,11 @@
   .banner-chocolate {
     display: flex;
     flex-direction: column;
+    width: 520px;
   }
 
   .banner-rapsberry {
-    
-    .banner__title,
-    .banner__description {
-      padding-right: 10px;
-    }
-
-    .banner__button {
-      margin-right: 12px;
-    }
-  }
-
-  .banner-chocolate {
-    padding-left: 54px;
-
-    .banner__button {
-      margin-right: 47px;
-    }
+    margin-right: 66px;
   }
 
   .banner__title {
@@ -70,7 +55,7 @@
     margin-left: auto;
     padding: 11px 20px;
 
-    border-radius: 20px;
+    border-radius: 25px;
 
     span {
       font-weight: bold;
@@ -80,67 +65,3 @@
     }
   }
 }
-
-
-
-/*.banner {
-  display: flex;
-  justify-content: space-between;
-
-  .banner__container {
-    position: relative;
-  }
-
-  .banner-rapsberry {
-    margin-left: 27px;
-  }
-
-  .banner-chocolate {
-    margin-right: 27px;
-  }
-
-  .banner__title {
-    position: absolute;
-    top: 15px;
-    left: 19px;
-
-    padding: 0px;
-    margin: 0px;
-
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 41px;
-    letter-spacing: -0.6px;
-  }
-
-  .banner__description {
-    position: absolute;
-    top: 72px;
-
-    padding: 0px;
-    margin: 0px;
-    margin-left: 19px;
-    margin-right: 19px;
-
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: -0.4px;
-  }
-
-  .banner__button {
-    position: absolute;
-    right: 22px;
-    bottom: 30px;
-
-    padding: 11px 20px;
-
-    border-radius: 20px;
-
-    span {
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: -0.4px;
-    }
-  }
-}*/
