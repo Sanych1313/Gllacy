@@ -1,17 +1,21 @@
 ::-webkit-input-placeholder {
-  color: #d3d3d2;
+  font-family: $roboto-regular;
+  color: #999999;
 }
 
 ::-moz-placeholder {
- color: #d3d3d2;
+  font-family: $roboto-regular;
+  color: #999999;
 }
 
-:-moz-placeholder { 
- color: #d3d3d2;
+:-moz-placeholder {
+  font-family: $roboto-regular;
+  color: #999999;
 }
 
 :-ms-input-placeholder {
- color: #d3d3d2;
+  font-family: $roboto-regular;
+  color: #999999;
 }
 
 .button {

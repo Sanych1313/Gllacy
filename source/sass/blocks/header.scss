@@ -58,7 +58,7 @@
 
       .left__catalog {
         position: absolute;
-        top: 32px;
+        top: 31px;
         left: -8px;
 
         display: none;
@@ -192,7 +192,7 @@
 
       .form-search {
         position: absolute;
-        top: 29px;
+        top: 31px;
         right: 0px;
         
         display: none;
@@ -202,7 +202,7 @@
 
       .form-account {
         position: absolute;
-        top: 29px;
+        top: 31px;
         right: 0px;
       
         display: none;
@@ -223,26 +223,24 @@
           background-color: #f8f7f4;
 
           input[type="search"] {
-            padding: 11px 16px;
+            padding: 9px 16px;
             border: 1px solid #d3d3d2;
             border-radius: 5px;
             width: 307px;
           
-            font-size: 14px;
+            font-size: 16px;
             line-height: 24px;
-            color: #323232;
           
             outline: none;
           }
 
-          input[type="search"]:hover,
-          input[type="search"]:focus {
-            padding: 10px 15px;
+          input[type="search"]:hover {
+            padding: 8px 15px;
             border: 2px solid #c7c6c5;
           }
           
-          input[type="search"]:active {
-            padding: 10px 15px;
+          input[type="search"]:focus {
+            padding: 8px 15px;
             border: 2px solid #8fbdec;
           }
         }
@@ -265,28 +263,26 @@
           input[type="text"],
           input[type="password"] {
             margin-bottom: 20px;
-            padding: 9px 13px;
+            padding: 8px 13px;
             border: 1px solid #d3d3d2;
             border-radius: 5px;
             width: 241px;
 
-            font-size: 14px;
+            font-size: 16px;
             line-height: 24px;
 
             outline: none;
           }
 
           input[type="text"]:hover,
-          input[type="text"]:focus,
-          input[type="password"]:hover,
-          input[type="password"]:focus {
-            padding: 8px 12px;
+          input[type="password"]:hover {
+            padding: 7px 12px;
             border: 2px solid #c7c6c5;
           }
 
-          input[type="text"]:active,
-          input[type="password"]:active {
-            padding: 8px 12px;
+          input[type="text"]:focus,
+          input[type="password"]:focus {
+            padding: 7px 12px;
             border: 2px solid #8fbdec;
           }
 
@@ -342,6 +338,7 @@
 
     .right__item:first-child {
       position: relative;
+      padding-top: 2px;
 
       .right__link {
         padding: 24px 8px 8px 8px;

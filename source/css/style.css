@@ -1,14 +1,18 @@
 ::-webkit-input-placeholder {
-  color: #d3d3d2; }
+  font-family: "Roboto-Regular", "Arial", sans-serif;
+  color: #999999; }
 
 ::-moz-placeholder {
-  color: #d3d3d2; }
+  font-family: "Roboto-Regular", "Arial", sans-serif;
+  color: #999999; }
 
 :-moz-placeholder {
-  color: #d3d3d2; }
+  font-family: "Roboto-Regular", "Arial", sans-serif;
+  color: #999999; }
 
 :-ms-input-placeholder {
-  color: #d3d3d2; }
+  font-family: "Roboto-Regular", "Arial", sans-serif;
+  color: #999999; }
 
 .button {
   border: none;
@@ -85,7 +89,7 @@
           border-bottom: 1px solid #adbdb4; }
       .top-menu .top-menu__left .left__item .left__catalog {
         position: absolute;
-        top: 32px;
+        top: 31px;
         left: -8px;
         display: none;
         padding: 0px;
@@ -176,13 +180,13 @@
       outline: none; }
     .top-menu .top-menu__right .right__item .form-search {
       position: absolute;
-      top: 29px;
+      top: 31px;
       right: 0px;
       display: none;
       z-index: 5; }
     .top-menu .top-menu__right .right__item .form-account {
       position: absolute;
-      top: 29px;
+      top: 31px;
       right: 0px;
       display: none;
       z-index: 5; }
@@ -196,23 +200,20 @@
         background-color: #f8f7f4; }
         .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"],
         .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"] {
-          padding: 11px 16px;
+          padding: 9px 16px;
           border: 1px solid #d3d3d2;
           border-radius: 5px;
           width: 307px;
-          font-size: 14px;
+          font-size: 16px;
           line-height: 24px;
-          color: #323232;
           outline: none; }
         .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:hover,
-        .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:focus,
-        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:hover,
-        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:focus {
-          padding: 10px 15px;
+        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:hover {
+          padding: 8px 15px;
           border: 2px solid #c7c6c5; }
-        .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:active,
-        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:active {
-          padding: 10px 15px;
+        .top-menu .top-menu__right li:hover .form-search .form-search__container input[type="search"]:focus,
+        .top-menu .top-menu__right li:focus .form-search .form-search__container input[type="search"]:focus {
+          padding: 8px 15px;
           border: 2px solid #8fbdec; }
     .top-menu .top-menu__right li:hover .form-account,
     .top-menu .top-menu__right li:focus .form-account {
@@ -234,28 +235,24 @@
         .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"],
         .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"] {
           margin-bottom: 20px;
-          padding: 9px 13px;
+          padding: 8px 13px;
           border: 1px solid #d3d3d2;
           border-radius: 5px;
           width: 241px;
-          font-size: 14px;
+          font-size: 16px;
           line-height: 24px;
           outline: none; }
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:hover,
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:focus,
         .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:hover,
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:focus,
         .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:hover,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:focus,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:hover,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:focus {
-          padding: 8px 12px;
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:hover {
+          padding: 7px 12px;
           border: 2px solid #c7c6c5; }
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:active,
-        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:active,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:active,
-        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:active {
-          padding: 8px 12px;
+        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="text"]:focus,
+        .top-menu .top-menu__right li:hover .form-account .form-account__container input[type="password"]:focus,
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="text"]:focus,
+        .top-menu .top-menu__right li:focus .form-account .form-account__container input[type="password"]:focus {
+          padding: 7px 12px;
           border: 2px solid #8fbdec; }
         .top-menu .top-menu__right li:hover .form-account .form-account__container .form-account__item:last-child,
         .top-menu .top-menu__right li:focus .form-account .form-account__container .form-account__item:last-child {
@@ -309,7 +306,8 @@
                 border-bottom-color: rgba(232, 77, 55, 0.3);
                 color: #e84d37; }
     .top-menu .top-menu__right .right__item:first-child {
-      position: relative; }
+      position: relative;
+      padding-top: 2px; }
       .top-menu .top-menu__right .right__item:first-child .right__link {
         padding: 24px 8px 8px 8px;
         border-radius: 50%;
@@ -690,11 +688,10 @@
       line-height: 24px;
       color: #323232;
       outline: none; }
-    .info .info__mailing input[type="text"]:hover,
-    .info .info__mailing input[type="text"]:focus {
+    .info .info__mailing input[type="text"]:hover {
       padding: 8px 11px;
       border: 2px solid #c7c6c5; }
-    .info .info__mailing input[type="text"]:active {
+    .info .info__mailing input[type="text"]:focus {
       padding: 8px 11px;
       border: 2px solid #8fbdec; }
     .info .info__mailing .mailing-form__button {
@@ -879,7 +876,64 @@
       color: #e84d37; }
 
 .write-us {
-  display: none; }
+  position: absolute;
+  top: 340px;
+  left: 360px;
+  display: none;
+  padding: 20px 24px 22px;
+  width: 477px;
+  background-color: #f8f7f4;
+  border-radius: 11px; }
+  .write-us .write-us__title {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #323232; }
+  .write-us .write-us__title::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    width: 18px;
+    height: 17px;
+    background-image: url(../img/popup-cross.svg);
+    background-repeat: no-repeat;
+    cursor: pointer; }
+  .write-us input[type="text"] {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    width: 267px;
+    border: 1px solid #d3d3d2;
+    border-radius: 5px;
+    outline: none; }
+  .write-us input[type="text"]:hover {
+    padding: 11px 14px;
+    border: 2px solid #c7c6c5; }
+  .write-us input[type="text"]:focus {
+    padding: 11px 14px;
+    border: 2px solid #8fbdec; }
+  .write-us .write-us__text {
+    padding: 12px 15px 123px;
+    margin-bottom: 15px;
+    width: 428px;
+    border: 1px solid #d3d3d2;
+    border-radius: 5px; }
+  .write-us .write-us__text:hover {
+    padding: 11px 14px 122px;
+    border: 2px solid #c7c6c5; }
+  .write-us .write-us__text:focus {
+    padding: 11px 14px 122px;
+    border: 2px solid #8fbdec; }
+  .write-us .write-us__button {
+    padding: 11px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    border-radius: 25px; }
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
