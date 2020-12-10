@@ -704,6 +704,60 @@
       letter-spacing: -0.5px;
       border-radius: 25px; }
 
+.map {
+  position: relative;
+  padding: 103px 27px 62px 871px; }
+  .map .map__pic {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: -1; }
+  .map .icon-map-pin {
+    position: absolute;
+    top: 179px;
+    left: 266px;
+    width: 80px;
+    height: 140px; }
+  .map .map__pic-shadow {
+    position: absolute;
+    top: 210px;
+    left: 305px; }
+  .map .map__container {
+    padding: 28px 25px;
+    min-height: 305px;
+    background-color: #fefefe;
+    border-radius: 13px; }
+    .map .map__container .map__description {
+      margin: 0px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #323232; }
+    .map .map__container .map__description:first-child {
+      margin-bottom: 3px; }
+    .map .map__container .map__description:nth-of-type(2) {
+      margin-bottom: 5px;
+      letter-spacing: 0.5px; }
+    .map .map__container .map__description:last-of-type {
+      margin-bottom: 36px; }
+    .map .map__container .map__address,
+    .map .map__container .map__phone {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      font-style: normal;
+      color: #323232; }
+    .map .map__container .map__address {
+      margin-bottom: 16px; }
+    .map .map__container .map__phone {
+      letter-spacing: 0.5px; }
+    .map .map__container .map__button {
+      padding: 12px 27px;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: bold;
+      letter-spacing: -0.5px;
+      border-radius: 25px; }
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
