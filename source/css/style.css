@@ -368,11 +368,9 @@
     font-weight: bold;
     line-height: 24px;
     letter-spacing: 0.4px;
-    color: #ffffff; }
-    .header__copyright .copyright__phone a {
-      color: #ffffff;
-      text-decoration: none;
-      outline: none; }
+    color: #ffffff;
+    text-decoration: none;
+    outline: none; }
 
 .slider {
   display: -webkit-box;
@@ -747,7 +745,9 @@
     .map .map__container .map__address {
       margin-bottom: 16px; }
     .map .map__container .map__phone {
-      letter-spacing: 0.5px; }
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      outline: none; }
     .map .map__container .map__button {
       padding: 12px 27px;
       font-size: 18px;
