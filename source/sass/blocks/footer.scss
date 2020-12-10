@@ -1,0 +1,133 @@
+.footer {
+  display: flex;
+
+  .footer__social,
+  .footer__menu,
+  .footer__made-in {
+    width: 400px;
+  }
+
+  .footer__social {
+    padding-top: 39px;
+    padding-left: 29px;
+
+    .social__link {
+      position: relative;
+
+      padding: 16px 16px;
+      margin-right: 13px;
+
+      font-size: 0px;
+      line-height: 0px;
+
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+    }
+
+    .icon-twitter,
+    .icon-insta,
+    .icon-fb,
+    .icon-vk {
+      position: absolute;
+      left: 0px;
+
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .footer__menu {
+    display: flex;
+    padding-top: 35px;
+    padding-left: 49px;
+
+    .footer-menu__first,
+    .footer-menu__second {
+      display: flex;
+      flex-direction: column;
+
+      .footer-menu__link:first-child {
+        margin-bottom: 6px;
+      }
+    }
+
+    .footer-menu__first {
+      margin-right: 31px;
+    }
+
+    .footer-menu__link {
+      position: relative;
+
+      font-family: $roboto-regular;
+      font-size: 13px;
+      line-height: 16px;
+      text-decoration: none;
+      color: #ffffff;
+
+      .icon-heart {
+        position: absolute;
+        top: 2px;
+        left: -22px;
+
+        width: 15px;
+        height: 13px;
+      }
+
+      span {
+        border-bottom: 1px solid #adbdb4;
+      }
+    }
+
+    .footer-menu__first {
+      
+      .footer-menu__link:first-child {
+        font-weight: bold;
+        letter-spacing: -0.2px;
+      }
+
+      .footer-menu__link:not(:first-child) {
+        letter-spacing: 0.2px;
+      }
+    }
+
+    .footer-menu__second {
+
+      .footer-menu__link {
+        letter-spacing: 0.2px;
+      }
+    }
+  }
+
+  .footer__made-in {
+    padding-top: 19px;
+    padding-left: 185px;
+
+    .made-in__logo {
+
+      .logo-htmlacademy {
+        width: 109px;
+        height: 38px;
+      }
+    }
+
+    .made-in__description {
+      margin: 0px;
+    }
+
+    .made-in__description,
+    .made-in__link {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    .made-in__link {
+      font-family: $roboto-regular;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    span {
+      border-bottom: 1px solid #adbdb4;
+    }
+  }
+}

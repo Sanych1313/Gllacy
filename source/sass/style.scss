@@ -7,6 +7,8 @@
 @import "blocks/seo.scss";
 @import "blocks/info.scss";
 @import "blocks/map.scss";
+@import "blocks/footer.scss";
+@import "blocks/write-us.scss";
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -122,11 +124,12 @@ body {
   color: #ffffff;
 }
 
-body {
+.fone-one {
   background-image: url(../img/backlight-slider.png);
   background-repeat: no-repeat;
 }
 
+body,
 .fone-one {
   background-color: #849d8f;
 }
